@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserLogin</class>
+ <widget class="QDialog" name="UserLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>460</width>
+    <height>689</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>460</width>
+    <height>689</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Kullanıcı Girişi</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>571</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>461</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(4, 18, 27);</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_giris_yap">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>520</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>17</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border: 2px solid;
+padding: 5px;
+border-radius: 10px;
+opacity: 200;
+border-color: rgb(65, 199, 199);
+</string>
+    </property>
+    <property name="text">
+     <string>Giriş Yap</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_button_kayit_ol">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>570</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>17</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(231, 231, 231);
+border: 2px solid rgb(65, 199, 199);
+padding: 5px;
+border-radius: 10px;
+opacity: 200;\n</string>
+    </property>
+    <property name="text">
+     <string>Kayıt Ol</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>389</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="line_edit_kullanici_adi">
+       <property name="font">
+        <font>
+         <family>Verdana</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(231, 231, 231);
+
+border: None;
+border-bottom-color: white;
+border-radius: 10px;
+padding: 0 8px;
+background: rgb(4, 18, 27);
+selection-background-color: darkgray;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Kullanıcı Adı</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid white;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::HLine</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>450</y>
+      <width>301</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="line_edit_sifre">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(231, 231, 231);
+
+border: None;
+border-bottom-color: white;
+border-radius: 10px;
+padding: 0 8px;
+background: rgb(4, 18, 27);
+selection-background-color: darkgray;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Şifre</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid  rgb(65, 199, 199);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::HLine</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>400</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/icons/user_32x32.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>450</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/icons/lock_32x32.png);
+color:  rgb(74, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>231</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/newPrefix/icons/deepfake.png);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../OneDrive/Masaüstü/Yeni klasör (5)/modern-login-main/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
